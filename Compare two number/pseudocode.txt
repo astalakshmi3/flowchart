@@ -1,0 +1,10 @@
+BEGIN
+   INPUT X, Y
+    IF X > Y THEN
+        OUTPUT "X is larger number"
+    ELSE IF Y > X THEN
+        OUTPUT "Y is larger number"
+    ELSE
+        OUTPUT "X and Y both are equal"
+    END IF
+  END  
