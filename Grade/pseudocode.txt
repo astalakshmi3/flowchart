@@ -1,0 +1,12 @@
+START
+    INPUT marks
+    IF marks >= 90 THEN
+        OUTPUT "Grade A"
+    ELSE IF marks <=89 THEN
+        OUTPUT "Grade B"
+    ELSE IF marks <= 74 THEN
+        OUTPUT "Grade C"
+    ELSE
+        OUTPUT "Fail"
+    ENDIF
+END
