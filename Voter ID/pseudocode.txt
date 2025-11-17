@@ -1,0 +1,8 @@
+START
+INPUT Age X
+IF Age >= 18 THEN
+OUTPUT "You are eligible to vote"
+ELSE
+OUTPUT "Your are not eligible to vote
+ENDIF
+END
