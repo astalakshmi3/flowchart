@@ -1,0 +1,10 @@
+START
+INPUT A,B,C
+IF A > larger THEN B
+    OUTPUT "A is largest number"
+IF B > larger THEN C
+    OUTPUT "B is largest number"
+ELSE
+    OUTPUT "C is largest number"
+ENDIF
+END
